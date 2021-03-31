@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400&display=swap');
+html body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.root {
+    letter-spacing:1.5px;
+    height:100%;
+    width: 1700px;
+    padding:0px;
+}
+
+.flex {
+    display: flex;
+    align-items: stretch;
+}
+
+.containter {
+width: 100%;
+height: max-content;
+margin: 0;
+padding: 0;
+}
+.section {
+    flex: 1;
+    padding-top: 50px;
+    width: 360px;
+    background-color: #00030D;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    margin: 0;
+}
+
+#photo {
+    width:200px ;
+    height:200px; 
+    background-color: #323234;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.tittle-section {
+    color: #EBEBEB;
+    text-align: center;
+    margin: 30px;
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+}
+
+#texto-perfil {
+    color: #EBEBEB;
+    text-align: center;
+    margin: 30px 50px 30px 50px;
+    font-size: 16px;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.linha-perfil {
+    margin: 0px 40px 0px 40px;
+}
+
+.links {
+    margin-top: 30px;
+}
+.links a {
+    text-decoration: none;
+    color: #EBEBEB;
+}
+
+.links svg{
+    float: left;
+    margin:0px 150px 10px 150px;
+}
+
+.links p{
+    text-align: center;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    
+    margin-bottom: 30px;
+}
+
+div.lista li{
+    text-align: center;
+    color:#EBEBEB ;
+    margin:20px;
+}
+
+.article {
+    padding-top: 50px;
+    height: 100%;
+    width: 1000px;
+    text-align: left;
+    background-color: white;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+.title {
+    text-align:center;
+    max-height: 200px;
+    width: 1000px;
+    background-color: #00CCFF;
+    padding: 64px;
+    margin-bottom: 50px;
+}
+
+.title h1 {
+    color: black;
+    text-align: center;
+    font-size: 36px;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+}
+
+.title h2 {
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+}
+.academico {
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-top-color: #00030D;
+    border-bottom-color: #00030D;
+    margin-left: 200px;
+    padding: 50px
+}
+.academico ul li{
+    text-align: center;
+    margin:20px;
+}
+.academico h1{
+    color: black;
+    text-align: left;
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+}
+
+.academico h2{
+    color: black;
+    text-align: left;
+    font-size: 22px;
+    font-style: italic;
+    font-family: Roboto, sans-serif;
+}
+
+.academico p{
+    color: black;
+    text-align: left;
+    font-size: 18px;
+    font-style: italic;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+}
+
+.profissional {
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #00030D;
+    margin-left: 200px;
+    padding: 50px
+}
+
+.profissional ul li{
+    text-align: left;
+    margin:20px;
+    list-style-type:none;
+}
+
+.profissional ul.itens li{
+    text-align: left;
+    margin:20px;
+    list-style-type:square;
+}
+.profissional h1{
+    color: black;
+    text-align: left;
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+}
+
+.profissional h2{
+    color: black;
+    text-align: left;
+    font-size: 22px;
+    font-style: italic;
+    font-family: Roboto, sans-serif;
+}
+
+.profissional p{
+    color: black;
+    text-align: left;
+    font-size: 18px;
+    font-style: italic;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+}
+
+.listas {
+    margin-bottom: 30px;
+}
+
+.gist {
+width: 100%;
+}
+
+.exemplo {
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-top-color: #00030D;
+    border-bottom-color: #00030D;
+    margin-left: 200px;
+    padding: 50px
+}
+
+.exemplo h1{
+    color: black;
+    text-align: left;
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+button {
+    color: #EBEBEB;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0;
+    position: relative;
+    text-decoration: underline;
+}
