@@ -14,8 +14,6 @@
  
 - ### Ignite - Trilha React - RocketSeat 
 - ### Dev Full Stack - Fullture (Em Andamento)
-    Curso formador de desenvolvedor Full-Stack
-    
 - ### Web Design Completo - Origamdi 
 - ### JavaScript Completo ES6 - Origamid 
 - ### React Completo - Origamid 
