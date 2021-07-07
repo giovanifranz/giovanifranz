@@ -12,7 +12,7 @@
     
  ## Cursos 
  
-- ### Ignite - Trilha React - RocketSeat 
+- ### Ignite - Trilha React - RocketSeat (Em Andamento)
 - ### Dev Full Stack - Fullture (Em Andamento)
 - ### Web Design Completo - Origamdi 
 - ### JavaScript Completo ES6 - Origamid 
